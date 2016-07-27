@@ -66,13 +66,6 @@ If you run into any difficulties, please request help before the workshop begins
         default location for the files. Type `yes` and press enter to prepend Anaconda to
         your `PATH` (this makes the Anaconda distribution the default Python).
 
-## Getting the Data
-
-The data we will be using is taken from the [gapminder](http://gapminder.org) dataset.
-To obtain it, download and unzip the file [python-novice-gapminder-data.zip](python-novice-gapminder-data.zip).
-In order to follow the presented material, you should launch a Jupyter notebook in the "data" directory 
-(see [Starting Python](#Starting-Python)).
-
 ## Starting Python
 
 We will teach Python using the [Jupyter notebook](http://jupyter.org/), a programming environment that

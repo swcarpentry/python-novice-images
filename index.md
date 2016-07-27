@@ -11,11 +11,10 @@ Please note that this lesson uses Python 3 rather than Python 2.
 
 > ## Prerequisites
 >
-> Learners need to understand the concepts of files and directories
-> (including the working directory)
-> and how to start a Python interpreter
-> before starting this lesson.
+> 1.  Learners need to understand what files and directories are,
+>     what a working directory is
+>     and how to start a Python interpreter.
 >
-> Learners must install Python and download the gapminder data before class starts:
-> please see [the setup instructions]({{ site.github.url }}/setup/)) for details.
+> 2. Learners must install Python
+>    and download a set of images before the class starts.
 {: .prereq}
