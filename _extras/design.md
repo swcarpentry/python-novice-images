@@ -77,7 +77,12 @@ While this looks like a waterfall process, in practice we did this:
 
 ### Goals
 
-1.  Learners can write short functions using loops, conditionals, and standard libraries.
+Learners can...
+
+*   ...write short scripts using loops and conditionals.
+*   ...write functions with a fixed number of parameters that return a single result.
+*   ...import libraries using aliases and refer to those libraries' contents.
+*   ...read, write, and manipulate images.
 
 ### Summative Assessment
 
@@ -92,25 +97,6 @@ How do I...
 *   ...manipulate the pixels in an image?
 *   ...automate these tasks?
 *   ...write programs I can understand a week from now?
-
-### Learners Will Be Able To...
-
-*   Run code interactively
-*   Run code saved in a file
-*   Write single-condition `if` statements
-*   Write `for` loops to do operations on each element in a collection
-*   Combine operations on basic data types (integer, float, string)
-*   Call built-in functions
-*   Use `help` and online documentation
-*   Import a library using an alias
-*   Call something from an imported library
-*   Read and write image files
-*   Manipulate NumPy arrays
-*   Do whole-image operations (e.g., resize)
-*   Do pixel-level operations on images (e.g., adjust color values)
-*   Interpret common error messages
-*   Write non-recursive functions taking a fixed number of named parameters
-*   Create literate programs in the Jupyter Notebook
 
 ### Learners Will Know...
 
@@ -133,3 +119,68 @@ How do I...
 *   The difference between defining and calling a function
 *   Where to find documentation on standard libraries
 *   How to find out what else scientific Python offers
+
+## Stage 2 - Learning Plan
+
+*   Running and Quitting Interactively
+    *   Teaching: 15 min (because setup issues)
+    *   Exercises: 0 min (accounted for in teaching time - no separate exercise)
+        *   Run the Notebook
+        *   Create a few Markdown cells
+        *   Create and execute a Python cell that prints 1+2
+*   Variables and Assignment
+    *   Teaching: 10 min
+    *   Exercises: 10 min
+        *   Trace behavior of three-step swapping
+        *   Calculate elapsed time in seconds using named values for seconds per minute, etc.
+*   Displaying Images
+    *   Teaching: 10 min (because paths and file download)
+    *   Exercise: 10 min (because of display issues)
+        *   Load and display
+*   Resizing Images
+    *   Introduces tuples and `object.member` notation
+    *   Teaching: 10 min
+    *   Exercises: 10 min
+        *   Load, resize, save
+*   Loops
+    *   Using `for pixel in image`
+    *   Teaching: 15 min
+    *   Exercises: 15 min
+        *   Remove all red
+        *   Create a scaled wash (green depends on X or Y coordinate)
+*   Coffee: 15 min
+*   Conditionals
+    *   Teaching: 15 min
+    *   Exercises: 15 min
+        *   Resize picture so that either height or width is 100px
+        *   Keep largest of three color values (conditional in loop)
+*   Lists
+    *   Teaching: 15 min (introduce `glob.glob`)
+    *   Exercises: 15 min
+        *   Filter list of filenames to keep PNGs
+        *   Create thumbnails for all files in a list
+*   Lunch: 60 min
+*   Writing Functions
+    *   Teaching: 20 min
+    *   Exercises: 20 min
+        *   Extract and encapsulate thumbnailing (image and size as parameters)
+        *   Encapsulate again (take directory path as input, loop)
+*   Documentation
+    *   Teaching: 10 min
+    *   Exercises: 10 min
+        *   Add docstrings to functions written earlier
+*   NumPy Arrays
+    *   Teaching: 20 min
+    *   Exercises: 15 min
+        *   Create images with blocks of color
+*   Coffee: 15 min
+*   Defensive Programming
+    *   Teaching: 15 min
+    *   Exercises: 15 min
+        *   Add assertions to check inputs to functions developed earlier
+*   Text Processing
+    *   Teaching: 15 min
+    *   Exercises: 15 min
+        *   Read text file specifying images and sizes and create thumbnails
+        *   Provides slack time for overrun of earlier episodes
+*   Wrapping Up: 10 min
