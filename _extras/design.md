@@ -19,23 +19,7 @@ The main sections are:
     then estimates time that will be spent on teaching and on exercises,
     while the exercises are given as bullet points.
 
-While this looks like a waterfall process, in practice we did this:
-
-1.  Draft the assumptions.
-
-2.  Do one bullet point for each of several learning milestones.
-
-3.  Draft the desired results.
-
-4.  Update the learning milestones (still as just one bullet point each, no time estimates or exercises).
-
-5.  Get early feedback from four people.
-
-6.  Do a full pass to flesh out the assumptions and add time estimates and exercises.
-
-7.  Ask for feedback and start iterating (mostly to cut things).
-
-## Stage 0 - Assumptions
+## Stage 1 - Assumptions
 
 *   Audience
     *   Graduate students in numerate disciplines from cosmology to economics
@@ -73,7 +57,7 @@ While this looks like a waterfall process, in practice we did this:
         *   We've tried writing/maintaining lessons as Notebooks...
     *   Learners will be provided with one Notebook per episode containing exercises
 
-## Stage 1 - Desired Results
+## Stage 2 - Desired Results
 
 ### Goals
 
@@ -120,67 +104,67 @@ How do I...
 *   Where to find documentation on standard libraries
 *   How to find out what else scientific Python offers
 
-## Stage 2 - Learning Plan
+## Stage 3 - Learning Plan
 
-*   Running and Quitting Interactively
+*   Running and Quitting Interactively (09:00)
     *   Teaching: 15 min (because setup issues)
     *   Exercises: 0 min (accounted for in teaching time - no separate exercise)
         *   Run the Notebook
         *   Create a few Markdown cells
         *   Create and execute a Python cell that prints 1+2
-*   Variables and Assignment
+*   Variables and Assignment (09:15)
     *   Teaching: 10 min
     *   Exercises: 10 min
         *   Trace behavior of three-step swapping
         *   Calculate elapsed time in seconds using named values for seconds per minute, etc.
-*   Displaying Images
+*   Displaying Images (09:35)
     *   Teaching: 10 min (because paths and file download)
     *   Exercise: 10 min (because of display issues)
         *   Load and display
-*   Resizing Images
+*   Resizing Images (09:55)
     *   Introduces tuples and `object.member` notation
     *   Teaching: 10 min
     *   Exercises: 10 min
         *   Load, resize, save
-*   Loops
+*   Loops (10:15)
     *   Using `for pixel in image`
     *   Teaching: 15 min
     *   Exercises: 15 min
         *   Remove all red
         *   Create a scaled wash (green depends on X or Y coordinate)
-*   Coffee: 15 min
-*   Conditionals
+*   Coffee: 15 min (10:45)
+*   Conditionals (11:00)
     *   Teaching: 15 min
     *   Exercises: 15 min
         *   Resize picture so that either height or width is 100px
         *   Keep largest of three color values (conditional in loop)
-*   Lists
+*   Lists (11:30)
     *   Teaching: 15 min (introduce `glob.glob`)
     *   Exercises: 15 min
         *   Filter list of filenames to keep PNGs
         *   Create thumbnails for all files in a list
-*   Lunch: 60 min
-*   Writing Functions
+*   Lunch: 60 min (12:00)
+*   Writing Functions (13:00)
     *   Teaching: 20 min
     *   Exercises: 20 min
         *   Extract and encapsulate thumbnailing (image and size as parameters)
         *   Encapsulate again (take directory path as input, loop)
-*   Documentation
+*   Documentation (13:40)
     *   Teaching: 10 min
     *   Exercises: 10 min
         *   Add docstrings to functions written earlier
-*   NumPy Arrays
+*   NumPy Arrays (14:00)
     *   Teaching: 20 min
     *   Exercises: 15 min
         *   Create images with blocks of color
-*   Coffee: 15 min
-*   Defensive Programming
+*   Coffee: 15 min (14:35)
+*   Defensive Programming (14:50)
     *   Teaching: 15 min
     *   Exercises: 15 min
         *   Add assertions to check inputs to functions developed earlier
-*   Text Processing
+*   Text Processing (15:20)
     *   Teaching: 15 min
     *   Exercises: 15 min
         *   Read text file specifying images and sizes and create thumbnails
         *   Provides slack time for overrun of earlier episodes
-*   Wrapping Up: 10 min
+*   Wrapping Up: 10 min (15:50)
