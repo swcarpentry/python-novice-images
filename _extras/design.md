@@ -168,3 +168,4 @@ How do I...
         *   Read text file specifying images and sizes and create thumbnails
         *   Provides slack time for overrun of earlier episodes
 *   Wrapping Up: 10 min (15:50)
+*   Finish (16:00)
